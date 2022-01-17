@@ -236,7 +236,7 @@ define_keymap(re.compile("^jetbrains-(?!.*toolbox).*$", re.IGNORECASE),{
     K("C-Minus"): K("C-KPMINUS"),               # Collapse code block
     K("C-Shift-Equal"): K("C-Shift-KPPLUS"),    # Expand all
     K("C-Shift-Minus"): K("C-Shift-KPMINUS"),   # Collapse all
-    K("C-w"): K("C-F4"),                        # Close active editor tab
+    K("C-w"): K("C-Shift-Key_4"),               # Close active editor tab
     # Refactoring
     K("C-Delete"): K("Alt-Delete"),               # Safe Delete
     K("C-T"): K("C-Alt-Shift-t"),                 # Refactor this
